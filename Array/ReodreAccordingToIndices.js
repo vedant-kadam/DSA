@@ -23,4 +23,6 @@ for(let k =0;k<j;k++){
 
 }
 
+///time - 0(n)
+//space  - 0(1)
 console.log(arr,index);
