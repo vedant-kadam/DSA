@@ -1,4 +1,4 @@
-let arr =  [ 15, 18, 2, 3,6 , 12 ];
+let arr =  [ 12 , 15, 18, 2, 3,6 ];
 
 let roationCount = 0;
 
