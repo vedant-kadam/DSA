@@ -1,4 +1,4 @@
-let arr =  [ 12 , 15, 18, 2, 3,6 ];
+let arr =  [12, 15, 18, 2, 3, 6 ];
 
 let roationCount = 0;
 
@@ -65,9 +65,10 @@ function iterativeBinarySearch(){
     let low = 0;
     let high = arr.length-1;
     let n = arr.length;
-    while(low < high){
+    while(low <= high){
 
       let mid = Math.floor(low + (high-low)/2);
+      console.log(arr);
       console.log("mid" ,mid);
       let prev = (mid-1+n)%n;
       console.log("prev",prev);
@@ -78,7 +79,7 @@ function iterativeBinarySearch(){
         return mid;
       }
       else if (arr[mid]<=arr[high]) 
-      high = mid-1 ;  
+      high = mid ;  
     else if (arr[mid]>=arr[low])  
       low=mid+1;
       
