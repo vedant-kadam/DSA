@@ -1,7 +1,8 @@
 let arr = [6, 3, 0, 5];
 
 //the basic is that we need to set the largest element to the correct position
-
+//time complexity O(n2);
+//space complexity O(1);
 function bubbleSort() {
   for (let i = 0; i < arr.length; i++) {
     let isSwapped = false;
