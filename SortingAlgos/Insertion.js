@@ -1,5 +1,8 @@
 let arr = [25, 12, 0, 58, 3, 69, 4];
 
+//o(n2) time
+//o(1) sapce
+
 function insertion() {
   for (let i = 1; i < arr.length; i++) {
     let curr = arr[i];
